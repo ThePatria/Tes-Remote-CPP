@@ -2,8 +2,9 @@
 #include <string>
 
 int main(){
-    int c, b;
-    int zen = (c = 1, b = 4, c+b);
-    std::cout  << zen << std::endl;
+    int c = 12, b = 10;
+    int zen = c - b;
+    bool odd = (zen < b) ? true:false;
+    std::cout << odd << std::endl;
     return 0;
 }
